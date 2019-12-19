@@ -1,0 +1,51 @@
+{
+    "name": "Dive.io",
+    "description": "<p><span>The dive.io API (Application Programming Interface) allows desktop applications and other websites to access dive.io data storage. The API is a&nbsp;<\/span><span>HTTP-based REST API<\/span><span>, and provides data in&nbsp;<\/span><span>JSON and XML<\/span><span>&nbsp;(HTML is also provided \"as is\" for the read-only methods, but not recommended since its format might change).<\/span><\/p>",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/dive-io.png",
+    "tags": [
+        "api provider",
+        "have api",
+        "photos",
+        "social",
+        "underwater diving"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/dive-io\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Dive.io",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/dive-io.png",
+            "humanURL": "http:\/\/dive.io",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/dive-io-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/dive-io-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Base",
+            "url": "https:\/\/api.dive.io\/"
+        },
+        {
+            "type": "Developers",
+            "url": "http:\/\/dive.io\/api"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/dive.io"
+        }
+    ]
+}
